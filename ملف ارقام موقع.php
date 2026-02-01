@@ -3,7 +3,7 @@ ob_start();
 $token = "8007287326:AAE312ORmrM2M7W0IbG3FsMfOZTrOChPK5k";
 define('API_KEY',$token);//add_token
 function bot($method,$datas=[]){
-    $url = "https://bot00-2.onrender.com".API_KEY."/".$method;
+    $url = "https://whdhdhdbot00-3.onrender.com".API_KEY."/".$method;
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL,$url);
     curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
